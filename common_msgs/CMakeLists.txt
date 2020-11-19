@@ -8,6 +8,12 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
+# Generate services in the 'srv' folder
+ add_service_files(
+   FILES
+   AddTwoNum.srv 
+ )
+
 # Generate messages in the 'msg' folder
  add_message_files(
    FILES
